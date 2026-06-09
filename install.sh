@@ -23,7 +23,7 @@ header()  { echo ""; echo "── $* ──"; }
 
 # Idempotent brew helpers — skip if already installed
 binstall() {
-  if brew list --formula "$1" &>/dev/null; then skip "$1"
+  if brew list --formula "$1" &>/dev/null || command -v "$1" &>/dev/null; then skip "$1"
   else brew install "$1"; fi
 }
 cinstall() {
