@@ -60,8 +60,8 @@ Already installed tools are automatically skipped — safe to run multiple times
 |---|---|
 | [Ghostty](https://ghostty.org) | Terminal emulator |
 | [Zed](https://zed.dev) | Editor |
-| [Raycast](https://raycast.com) | App launcher, clipboard history, window management |
-| [Rectangle](https://rectangleapp.com) | Window snapping with keyboard shortcuts |
+| [Raycast](https://raycast.com) | App launcher, clipboard history, snippets |
+| [Rectangle](https://rectangleapp.com) | Window management — snap and resize windows with keyboard shortcuts |
 | [OrbStack](https://orbstack.dev) | Lightweight Docker Desktop replacement — same `docker` and `docker compose` commands |
 | JetBrainsMono Nerd Font | Font used in Ghostty (includes icons for eza) |
 
